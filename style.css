@@ -1,9 +1,53 @@
 * {
-   background-color: #f5dfe7; 
+   background-color: #c4dea4; 
    font-size: 18px;
    font-family: "Lucida Sans", serif;
 }
 
-h1 {
-    font-size: 25px;
+.h1 {
+    font-size: 30px;
+    border-style: dotted;
+    border-color: #fbede0;
+    border-width: 5px;
+    padding: 15px 15px;
+    margin: 25px;
+    text-align: center;
 }
+
+ul {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #fbede0;
+    list-style: none;
+    padding: 15px 15px;
+    margin: 25px;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008631;
+    text-decoration: none;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+    
